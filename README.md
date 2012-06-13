@@ -6,7 +6,7 @@ This repo provides a basic configuration to get syntax highlighting in PHPStorm 
 Installation
 ===============
 
-Run `php parser.php` and put the output file (_Puppet files.xml_) into _<USER>\\.WebIde40\\config\\filetypes_ (or _~/Library/Preferences/WebIde40/filetypes_ for mac and _~/.WebIde40/config/filetemplates_ if you use storm on a linux).
+Run `php parser.php` and put the output file (_Puppet files.xml_) into _<USER>\\.WebIde40\\config\\filetypes_ (or _~/Library/Preferences/WebIde40/filetypes_ for mac and _~/.WebIde40/config/filetypes_ if you use storm on a linux).
 
 
 Contributing
