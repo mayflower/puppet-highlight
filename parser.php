@@ -78,7 +78,7 @@ $puppetOptions = array(
       "HAS_BRACES"=> "true",
       "HAS_PARENS"=> "true",
       "HAS_STRING_ESCAPES"=> "true",
-      "LINE_COMMENT_AT_START"=> "false",    
+      "LINE_COMMENT_AT_START"=> "false",
 );
 
 
@@ -111,10 +111,10 @@ $xmlWriter->startElement('filetype');
         $xmlWriter->text('pp');
     $xmlWriter->endAttribute();
     $xmlWriter->startAttribute('description');
-        $xmlWriter->text('Syntax highlighting for puppet files');
+        $xmlWriter->text('Puppet manifests');
     $xmlWriter->endAttribute();
     $xmlWriter->startAttribute('name');
-        $xmlWriter->text('Puppet files');
+        $xmlWriter->text('Puppet manifests');
     $xmlWriter->endAttribute();
 
     $xmlWriter->startElement('extensionMap'); //<extensionMap>
